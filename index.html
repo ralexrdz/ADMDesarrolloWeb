@@ -23,17 +23,123 @@
   <link rel="stylesheet" href="../../styeles/style.css">
 </head>
 <body>
+  <h1>REPASO HTML</h1>
   <section>
     <!-- h1....h5 titulos  -->
-    <h1>HEAD</h1>
+    <h2>HEAD</h2>
     <!-- ul = Unordered List (Lista sin orden) -->
     <ul> 
       <!-- li = List Item -->
       <li>meta charset: alfabeto</li>
       <li>meta name="viewport" para que funcione el responsive</li>
       <li>title: título de la pestaña en el browser</li>
-
+      <li>style: para poner estilos en el mismo archivo</li>
+      <li>link:css : para vincular un archivo css a mis estilos</li>
+      <li>link:favicon : para ponerle una imagen de ícono a la pestaña</li>
     </ul>
+  </section>
+  <section>
+    <h2>body</h2>
+    <p>Acá va todo el conenido de mi página</p>
+  </section>
+  <section>
+    <h2>div (division)</h2>
+    <ul>
+      <li>contenedor por excelencia</li>
+      <li>No tiene ni margin, ni padding, ni border</li>
+      <li>Es como invisible</li>
+      <li>Ocupa horizontalmente todo el espacio disponible</li>
+      <li>... css: display: 'block' </li>
+      <li>Cualquier elemento después está een un nuevo renglon</li>
+    </ul>
+  </section>
+  <section>
+    <h2>h1, h2, h3, h4, h5 (header)</h2>
+    <p>títulos progresivamente más pequeños en font-size y en espaciado</p>
+  </section>
+  <section>
+    <h2>texto cualquier</h2>
+    <p>El texto funciona como display: 'inline'</p>
+    <p>En cuanto sobrepasa el límite de su contenedor, empieza un nuevo renglón</p>
+  </section>
+  <section>
+    <h2>p (párrafo)</h2>
+    <p>también es display: 'block'</p>
+    <p>tiene margin arriba y abajo</p>
+  </section>
+  <section>
+    <h2>span</h2>
+    <p>es un contenedor, pero es inline</p>
+    <p>Sirve para <span style="color: purple">darle estilo</span> a texto dentro de un párrafo</p>
+  </section>
+  <section>
+    <h2>ul, ol y li</h2>
+    <p>ul significa Unordered List</p>
+    <p>ul significa Ordered List</p>
+    <p>li significa list items, siempre van como hijos de un ol o un ul</p>
+    <p>Sirven para hacer listados con bullets</p>
+    <ul>
+      <li>hola</li>
+      <li>adios</li>
+      <li>aloha</li>
+      <li>bye</li>
+      <li>alo</li>
+    </ul>
+    <ol>
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+      <li>d</li>
+      <li>e</li>
+    </ol>
+  </section>
+  <section>
+    <h2>b</h2>
+    <p>Sirve para hacer una palabra <b>bold</b></p>
+  </section>
+  <section>
+    <h2>i</h2>
+    <p>Sirve para hacer una palabra <i>cursiva</i></p>
+  </section>
+  <section>
+    <h2>s</h2>
+    <p>Sirve para hacer una palabra <i>striked</i></p>
+  </section>
+  <section>
+    <h2>br (break)</h2>
+    <p>salto de linea</p>
+    <p>Ej <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure laudantium rerum veritatis assumenda consequatur in sint temporibus aliquid amet maxime a officiis odit consequuntur aperiam fuga culpa cum, eius aut ut minus. Nihil illum cumque doloremque non quis ipsam sit eaque fuga odit molestiae voluptates culpa esse, dolor inventore ullam! <br> <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quia est quae quod eligendi autem asperiores impedit sit repellat? </p>
+  </section>
+  <section>
+    <h2>hr (horizonal rule)</h2>
+    <p>Pone una separación horizontal del ancho completo</p>
+    <hr>
+    <p>queda ejemplificado</p>
+  </section>
+  <section>
+    <h2>table, th (table header), tr (table row), td (table d?????)</h2>
+    <table>
+      <tr>
+        <th>Header col1</th>
+        <th>Header col2</th>
+        <th>Header col3</th>
+      </tr>
+      <tr>
+        <td>primera fila col-1</td>
+        <td>primera fila col-2</td>
+        <td>primera fila col-3</td>
+      </tr>
+      <tr>
+        <td>segunda fila col-1</td>
+        <td>segunda fila col-2</td>
+        <td>segunda fila col-3</td>
+      </tr>
+      <tr>
+        <td>tercera fila col-1</td>
+        <td>tercera fila col-2</td>
+        <td>tercera fila col-3</td>
+      </tr>
+    </table>
   </section>
 </body>
 </html>
