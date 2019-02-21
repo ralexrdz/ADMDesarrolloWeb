@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Repaso</title>
+  <!-- Para estilos hay dos opciones -->
+    <!-- Opcion 1 (mala práctica): Estilos en mismos archivos -->
+  <style>
+    h1 {
+      color: rgb(75, 42, 42);
+    }
+  </style>
+    <!-- Opcion 2 (buena práctica): Estilo en otro archivo -->
+      <!-- Nombre archivo solo: Significa que el archivo está en la RAIZ de mi folder web -->
+  <link rel="stylesheet" href="style.css">
+      <!-- ./ : Significa que el archivo está en el mismo folder que este doc -->
+  <link rel="stylesheet" href="../style.css">
+      <!-- ../ : Significa que el archivo está en el folder papá de mi doc -->
+  <link rel="stylesheet" href="../style.css">
+      <!-- ../../ : Significa que el archivo está en el folder papá del papá de mi doc -->
+  <link rel="stylesheet" href="../../styeles/style.css">
+</head>
+<body>
+  <section>
+    <!-- h1....h5 titulos  -->
+    <h1>HEAD</h1>
+    <!-- ul = Unordered List (Lista sin orden) -->
+    <ul> 
+      <!-- li = List Item -->
+      <li>meta charset: alfabeto</li>
+      <li>meta name="viewport" para que funcione el responsive</li>
+      <li>title: título de la pestaña en el browser</li>
+
+    </ul>
+  </section>
+</body>
+</html>
+
