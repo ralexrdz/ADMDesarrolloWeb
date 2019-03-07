@@ -39,12 +39,14 @@
 
 .img-container img {
   position: absolute;
-  transition: all 1s ease;
+  transition: all 5s ease;
+  top:0;
+  left:0;
 }
 
 .img-container:hover img{
-  top: -20px;
-  left: -20px;
+  top: -100px;
+  left: -100px;
 }
 
 
@@ -65,5 +67,5 @@
 .img-container:hover div {
   opacity: 1;
   bottom: 0;
-  background-color: rgba(20,20,20,0.8);
+  background-color: rgba(20,20,20,0.6);
 }
